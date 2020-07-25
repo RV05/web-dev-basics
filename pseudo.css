@@ -1,0 +1,19 @@
+p::before {
+  content: "hello";
+  display: block;
+  font-weight: bold;
+  background:yellow;
+  color: red;
+  
+}
+p::after{
+    content: "";
+    display: block;
+    color: green;
+    height: 50PX;
+    width: 50px;
+    font-weight: bold;
+    background:yellow;
+  
+  
+}
